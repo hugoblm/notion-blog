@@ -17,7 +17,7 @@ export default () => (
       />
       <h1>JYMIZ'S Blog test</h1>
       <h2>
-        Lifestyle, voyage, nutrition, sport. Bienvenu sur le Mag JYMIZ'{' '}
+        Lifestyle, voyage, nutrition, sport. Bienvenue sur le Mag JYMIZ'{' '}
       </h2>
 
       <Features />
