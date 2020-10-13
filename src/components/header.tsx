@@ -22,7 +22,7 @@ export default ({ titlePre = '' }) => {
         <title>{titlePre ? `${titlePre} |` : ''} JYMIZ Blog</title>
         <meta
           name="description"
-          content="Lifestyle, Sport, Nutrition, le blog JYMIZ"
+          content="Lifestyle, Sport and Nutrition, le blog JYMIZ"
         />
         <meta name="og:title" content="JYMIZ Blog" />
         <meta property="og:image" content={ogImageUrl} />
