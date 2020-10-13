@@ -5,10 +5,10 @@ import { useRouter } from 'next/router'
 import styles from '../styles/header.module.css'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
-  { label: 'Home', page: '/home' },
-  { label: 'Blog', page: '/blog' },
-  { label: 'Contact', page: '/contact' },
-  { label: 'Source Code', link: 'https://github.com/ijjk/notion-blog' },
+  { label: 'JYMIZ', page: '/home' },
+  { label: 'Lifestyle', page: '/blog' },
+  { label: 'Sport', page: '/blog' },
+  { label: 'Nutrition', page: '/blog' },
 ]
 
 const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
@@ -19,12 +19,12 @@ export default ({ titlePre = '' }) => {
   return (
     <header className={styles.header}>
       <Head>
-        <title>{titlePre ? `${titlePre} |` : ''} JYMIZ Mag</title>
+        <title>{titlePre ? `${titlePre} |` : ''} JYMIZ Blog</title>
         <meta
           name="description"
-          content="Lifestyle, Sport, Nutrition, Voyage le Magazine JYMIZ"
+          content="Lifestyle, Sport, Nutrition, le Magazine JYMIZ"
         />
-        <meta name="og:title" content="My Notion Blog" />
+        <meta name="og:title" content="JYMIZ Blog" />
         <meta property="og:image" content={ogImageUrl} />
         <meta name="twitter:site" content="@_ijjk" />
         <meta name="twitter:card" content="summary_large_image" />
