@@ -7,7 +7,7 @@ import sharedStyles from '../styles/shared.module.css'
 
 export default () => (
   <>
-    <Header titlePre="Home" />
+    <Header titlePre="home" />
     <div className={sharedStyles.layout}>
       <img
         src="/vercel-and-notion.png"
@@ -17,7 +17,7 @@ export default () => (
       />
       <h1>JYMIZ'S Blog test</h1>
       <h2>
-        Lifestyle, voyage, nutrition, sport. Bienvenue sur le Mag JYMIZ'{' '}
+        Lifestyle, Sport, Nutrition. Bienvenue sur le Blog JYMIZ'{' '}
       </h2>
 
       <Features />
